@@ -181,6 +181,7 @@ public class LaptopService extends LaptopServiceGrpc.LaptopServiceImplBase {
                             .withDescription("cannot save image to the store: " + e.getMessage())
                             .asRuntimeException()
                     );
+                    return;
                 }
 
                 UploadImageResponse response = UploadImageResponse.newBuilder()
