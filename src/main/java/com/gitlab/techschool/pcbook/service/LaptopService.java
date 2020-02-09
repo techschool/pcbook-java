@@ -124,6 +124,16 @@ public class LaptopService extends LaptopServiceGrpc.LaptopServiceImplBase {
                     imageType = info.getImageType();
                     imageData = new ByteArrayOutputStream();
 
+                    // Check laptop exists
+                    Laptop found = laptopStore.Find(laptopID);
+                    if (found == null) {
+                        responseObserver.onError(
+                                Status.NOT_FOUND
+                                .withDescription("laptop ID doesn't exist")
+                                .asRuntimeException()
+                        );
+                    }
+
                     return;
                 }
 
