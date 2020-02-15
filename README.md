@@ -1,6 +1,6 @@
-# PC Book - Go
+# PC Book - Java
 
-This repository contains the Golang codes for the hands-on section of [The complete gRPC course](http://bit.ly/grpccourse) by [TECH SCHOOL](https://dev.to/techschoolguru).
+This repository contains the Java codes for the hands-on section of [The complete gRPC course](http://bit.ly/grpccourse) by [TECH SCHOOL](https://dev.to/techschoolguru).
 
 ## The PC book application
 
