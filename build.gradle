@@ -22,6 +22,9 @@ dependencies {
     // https://mvnrepository.com/artifact/io.grpc/grpc-all
     compile group: 'io.grpc', name: 'grpc-all', version: '1.26.0'
 
+    // https://mvnrepository.com/artifact/io.grpc/grpc-services
+    compile group: 'io.grpc', name: 'grpc-services', version: '1.28.0'
+
     // https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api
     compile group: 'javax.annotation', name: 'javax.annotation-api', version: '1.3.2'
 }
